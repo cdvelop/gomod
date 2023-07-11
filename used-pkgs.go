@@ -13,9 +13,9 @@ func GetUsedPackageNames(owner, gomod_file_contend string) (pkg_list []string) {
 
 		pkg_name := GetPackage(line)
 
-		if _, exist := reg[pkg_name]; !exist && pkg_name != "" {
+		if _, exist := reg[pkg_name]; !exist && pkg_name != "" && strings.Contains(line, owner) {
 
-			// fmt.Println(i, " linea: ", line, " PAQUETE: ", pkg_name)
+			// fmt.Println(" linea: ", line, " PAQUETE: ", pkg_name)
 
 			pkg_list = append(pkg_list, pkg_name)
 			reg[pkg_name] = struct{}{}
