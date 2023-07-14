@@ -1,12 +1,24 @@
 package gomod
 
-import "os"
+import (
+	"fmt"
+	"os"
+)
 
-func Exist() (content string, err error) {
+// dir ej: "test_project" default ""
+func Exist(dir ...string) (content string, err error) {
 
-	cont, err := os.ReadFile("go.mod")
+	var gomod_dir = "go.mod"
+
+	for _, v := range dir {
+		if v != "" {
+			gomod_dir = v + "/go.mod"
+		}
+	}
+
+	cont, err := os.ReadFile(gomod_dir)
 	if err != nil {
-		return "", err
+		return "", fmt.Errorf("error archivo %v no encontrado", gomod_dir)
 	}
 
 	return string(cont), nil
