@@ -12,7 +12,7 @@ func Exist(dir ...string) (content string, err error) {
 
 	for _, v := range dir {
 		if v != "" {
-			gomod_dir = v + "/go.mod"
+			gomod_dir = v
 		}
 	}
 

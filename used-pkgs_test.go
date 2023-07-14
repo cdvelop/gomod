@@ -8,31 +8,13 @@ import (
 )
 
 func TestGetUsedPackageNames(t *testing.T) {
-	const data_gomod_file = `module github.com/cdvelop/module_client
-
-go 1.20
-
-require (
-	github.com/cdvelop/model v0.0.32
-)
-
-require github.com/cdvelop/cutkey v0.6.0 // indirect
-
-require (
-	github.com/cdvelop/api v0.0.1
-	github.com/cdvelop/js v0.0.0-20230710200247-0d9f5c8314da
-	github.com/cdvelop/platform v0.0.2
-	golang.org/x/text v0.10.0 // indirect
-)
-
-replace github.com/cdvelop/model => ../model
-
-replace github.com/cdvelop/godev => ../godev`
 
 	var expected = []string{"model", "cutkey", "api", "js", "platform"}
 
-	owner := "github.com/cdvelop"
-	packages := gomod.GetUsedPackageNames(owner, data_gomod_file)
+	packages, err := gomod.GetUsedPackageNames("used-pkgs-go.mod")
+	if err != nil {
+		log.Fatalln(err)
+	}
 
 	if len(packages) != len(expected) {
 		t.Errorf("Expected %d packages, but got %d\n%v", len(expected), len(packages), packages)
