@@ -39,3 +39,29 @@ func GetUsedPackageNames(path string) ([]string, error) {
 	return pkg_list, nil
 
 }
+
+func GetSeparateUsedPackageNames(path string) (modules, components []string, err error) {
+
+	packages_names, err := GetUsedPackageNames(path)
+	if err != nil {
+		return nil, nil, err
+	}
+
+	modules, components = SeparatePackageNames(packages_names)
+
+	return
+}
+
+func SeparatePackageNames(packages_names []string) (modules, components []string) {
+
+	for _, name := range packages_names {
+
+		if strings.Contains(name, "module") {
+			modules = append(modules, name)
+		} else {
+			components = append(components, name)
+		}
+	}
+
+	return
+}
