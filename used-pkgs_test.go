@@ -11,7 +11,7 @@ func TestGetUsedPackageNames(t *testing.T) {
 
 	var expected = []string{"model", "cutkey", "api", "js", "platform"}
 
-	packages, err := gomod.GetUsedPackageNames("used-pkgs-go.mod")
+	packages, err := gomod.GetUsedPackageNames("test")
 	if err != nil {
 		log.Fatalln(err)
 	}
