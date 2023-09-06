@@ -13,6 +13,7 @@ func TestGetPackage(t *testing.T) {
 		expect string
 	}{
 		"se espera cutkey":                               {"require github.com/cdvelop/cutkey v0.6.0", "cutkey"},
+		"se espera module_medical_history":               {"github.com/cdvelop/module_medical_history v0.0.0-00010101000000-000000000000", "module_medical_history"},
 		"se espera model":                                {"github.com/cdvelop/model v0.0.32", "model"},
 		"se espera file":                                 {"require github.com/cdvelop/file v0.6.0 // indirect", "file"},
 		"contiene replace se espera model ":              {"replace github.com/cdvelop/model => ../model", ""},
