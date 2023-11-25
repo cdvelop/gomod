@@ -1,11 +1,11 @@
 package gomod
 
 import (
-	"github.com/cdvelop/gotools"
+	"github.com/cdvelop/fileserver"
 )
 
 // dir ej: "test_project" default ""
-func Exist(dir string) (content string, err error) {
+func Exist(dir string) (content, err string) {
 
-	return gotools.FindFirstFileWithExtension(dir, ".mod")
+	return fileserver.FindFirstFileWithExtension(dir, ".mod")
 }

@@ -1,25 +1,23 @@
 package gomod
 
 import (
-	"fmt"
 	"strings"
 )
 
-func GetUsedPackageNames(path string) ([]string, error) {
+func GetUsedPackageNames(path string) (pkg_list []string, err string) {
 
 	gomod_content, err := Exist(path)
-	if err != nil {
+	if err != "" {
 		return nil, err
 	}
 
 	owner := GetRepositoryOwner(gomod_content)
 	if owner == "" {
-		return nil, fmt.Errorf("error no se logro obtener el dueño del repositorio gomod path: %v", path)
+		return nil, "error no se logro obtener el dueño del repositorio gomod path: " + path
 	}
 
 	lines := strings.Split(gomod_content, "\n")
 	reg := map[string]struct{}{}
-	pkg_list := []string{}
 
 	for _, line := range lines {
 		line = strings.TrimSpace(line)
@@ -36,14 +34,14 @@ func GetUsedPackageNames(path string) ([]string, error) {
 
 	}
 
-	return pkg_list, nil
+	return pkg_list, ""
 
 }
 
-func GetSeparateUsedPackageNames(path string) (modules, components []string, err error) {
+func GetSeparateUsedPackageNames(path string) (modules, components []string, err string) {
 
 	packages_names, err := GetUsedPackageNames(path)
-	if err != nil {
+	if err != "" {
 		return nil, nil, err
 	}
 
