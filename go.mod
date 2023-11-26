@@ -3,22 +3,22 @@ module github.com/cdvelop/gomod
 go 1.20
 
 require (
-	github.com/cdvelop/filehandler v0.0.8 // indirect
+	github.com/cdvelop/filehandler v0.0.10 // indirect
 	github.com/cdvelop/go_model v1.10.0 // indirect
 	github.com/cdvelop/maps v0.0.7 // indirect
-	github.com/cdvelop/object v0.0.35 // indirect
-	github.com/cdvelop/unixid v0.0.21 // indirect
+	github.com/cdvelop/object v0.0.37 // indirect
+	github.com/cdvelop/unixid v0.0.23 // indirect
 	github.com/fxamacker/cbor/v2 v2.5.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
 	golang.org/x/net v0.18.0 // indirect
 )
 
 require (
-	github.com/cdvelop/fileserver v0.0.27
-	github.com/cdvelop/input v0.0.55 // indirect
+	github.com/cdvelop/fileserver v0.0.29
+	github.com/cdvelop/input v0.0.57 // indirect
 	github.com/cdvelop/model v0.0.73 // indirect
 	github.com/cdvelop/strings v0.0.7 // indirect
-	github.com/cdvelop/timetools v0.0.21 // indirect
+	github.com/cdvelop/timetools v0.0.23 // indirect
 )
 
 replace github.com/cdvelop/model => ../model
