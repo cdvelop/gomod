@@ -1,13 +1,13 @@
-github.com/cdvelop/api v0.0.71 h1:X+p35ptmHZnZh2IkYJzGgbbKNLpVZ1wIodQXVyMGu1k=
+github.com/cdvelop/api v0.0.73 h1:t89gZ7gEF3pUDN59Xf6+3JgrJdfJCqvqCaqDBBPPZzY=
 github.com/cdvelop/cutkey v1.0.0 h1:lv9njJ/QuB43OGB4LPDiutY4qvHOZ9RpV7cYaZ13pWM=
 github.com/cdvelop/dbtools v0.0.68 h1:AGEZDNeZGvi2Y4QMrJdQ1Opwh6eI8Mc/VebYnUrWpBA=
 github.com/cdvelop/fetchserver v0.0.11 h1:VmrBiHaMh62Xvy9IoEGckMYKYblHiUmbXzt8jdOwLNI=
-github.com/cdvelop/fileinput v0.0.39 h1:lkNeqSv7Q6u7JlGU3ZXhhjN/hrNxvDghlM1cejYhzNI=
+github.com/cdvelop/fileinput v0.0.40 h1:LEuN87eGlbOZWskYvUVpCjxg+npKLc7i7PLDfT4PpW8=
 github.com/cdvelop/logserver v0.0.13 h1:duK4XxlUyqAUpKXgHGW1QidNdaB5N4feWBMQPSoKx78=
 github.com/cdvelop/objectdb v0.0.92 h1:IOkSWpe8n6AkKH2OqRsz7x5rOA49r8SNKucePsViu/4=
 github.com/cdvelop/output v0.0.16 h1:4hmAy0kF98dVEWj2qq6fMtiq3pz1ZTDmxf9AgHiBb7g=
 github.com/cdvelop/sqlite v0.0.84 h1:sLWcMS0tvuLIIvtK9AVzeoB3tsjNB54afYadWNobJgE=
-github.com/cdvelop/testools v0.0.53 h1:XA/xVKyYIn4Q+oImp7QJr6UeCJZX1J1teOwC7xNuSVw=
+github.com/cdvelop/testools v0.0.54 h1:tarzHFRTW9dbNFi2FYIPCZiLzjazBadZghXPEuEtSHg=
 github.com/cdvelop/timeserver v0.0.27 h1:DyFQWNtVPLe8R0GIhlo9P4+biZQUsqxHkyzGZ5pWEAM=
 github.com/gabriel-vasile/mimetype v1.4.3 h1:in2uUcidCuFcDKtdcBxlR0rJ1+fsokWf+uqxgUFjbI0=
 github.com/gabriel-vasile/mimetype v1.4.3/go.mod h1:d8uq/6HKRL6CGdk+aubisF/M5GcPfT7nKyLpA0lbSSk=
