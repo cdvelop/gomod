@@ -3,10 +3,10 @@ module github.com/cdvelop/gomod
 go 1.20
 
 require (
-	github.com/cdvelop/filehandler v0.0.18 // indirect
+	github.com/cdvelop/filehandler v0.0.19 // indirect
 	github.com/cdvelop/maps v0.0.8 // indirect
-	github.com/cdvelop/object v0.0.45 // indirect
-	github.com/cdvelop/unixid v0.0.28 // indirect
+	github.com/cdvelop/object v0.0.46 // indirect
+	github.com/cdvelop/unixid v0.0.29 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
 	golang.org/x/net v0.19.0 // indirect
 )
