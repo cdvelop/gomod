@@ -5,8 +5,8 @@ go 1.20
 require (
 	github.com/cdvelop/filehandler v0.0.25 // indirect
 	github.com/cdvelop/maps v0.0.8 // indirect
-	github.com/cdvelop/object v0.0.57 // indirect
-	github.com/cdvelop/unixid v0.0.40 // indirect
+	github.com/cdvelop/object v0.0.58 // indirect
+	github.com/cdvelop/unixid v0.0.41 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
 	golang.org/x/net v0.19.0 // indirect
 )
