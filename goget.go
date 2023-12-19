@@ -13,8 +13,9 @@ func CommandFound() bool {
 	for _, v := range os.Args {
 
 		if strings.Contains(v, "goget") != 0 {
+			err := GogetAll()
+			fmt.Println(err)
 
-			fmt.Println("EJECUTANDO Goget")
 			return true
 		}
 
@@ -23,6 +24,16 @@ func CommandFound() bool {
 	return false
 }
 
-func GogetAll() {
+func GogetAll() (err string) {
+	fmt.Println("EJECUTANDO GogetAll...")
+
+	pkg_list, err := GetUsedPackageNames("./")
+	if err != "" {
+		return err
+	}
+
+	fmt.Println("LISTADO PAQUETES USADOS", pkg_list)
+
+	return
 
 }
