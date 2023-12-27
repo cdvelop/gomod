@@ -3,7 +3,7 @@ module github.com/cdvelop/gomod
 go 1.20
 
 require (
-	github.com/cdvelop/fileserver v0.0.53
+	github.com/cdvelop/fileserver v0.0.54
 	github.com/cdvelop/strings v0.0.9
 )
 
