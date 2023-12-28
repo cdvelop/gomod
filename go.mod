@@ -8,13 +8,13 @@ require (
 )
 
 require (
-	github.com/cdvelop/filehandler v0.0.35 // indirect
-	github.com/cdvelop/input v0.0.81 // indirect
+	github.com/cdvelop/filehandler v0.0.36 // indirect
+	github.com/cdvelop/input v0.0.82 // indirect
 	github.com/cdvelop/maps v0.0.8 // indirect
 	github.com/cdvelop/model v0.0.107 // indirect
-	github.com/cdvelop/object v0.0.67 // indirect
+	github.com/cdvelop/object v0.0.68 // indirect
 	github.com/cdvelop/structs v0.0.1 // indirect
-	github.com/cdvelop/timetools v0.0.33 // indirect
+	github.com/cdvelop/timetools v0.0.34 // indirect
 	github.com/cdvelop/unixid v0.0.48 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
 	golang.org/x/net v0.19.0 // indirect
