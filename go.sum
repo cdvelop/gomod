@@ -1,4 +1,4 @@
-github.com/cdvelop/api v0.0.101 h1:mAZ97WHg8QV6aN0SNDevkcfVb+tQhqSoOS/Kiwz0Yo8=
+github.com/cdvelop/api v0.0.102 h1:mSv9eio8fgbriLQ0NPAALAXVxlXd5veK4K0uxWApwxA=
 github.com/cdvelop/cutkey v1.0.14 h1:s1sE31G8fVJCqL7kETZU9IyvU+zXdoppVeXjTWnQrCs=
 github.com/cdvelop/dbtools v0.0.81 h1:1l6Dk3D5drReyaxacIzSF+mrDRNk/J1DKZU8bQbyGVg=
 github.com/cdvelop/fetchserver v0.0.26 h1:X/xPu+YkoUaxD5KNnkyZSSmXF4HF9xQ55/H8rRN/HXQ=
@@ -9,8 +9,8 @@ github.com/cdvelop/output v0.0.16 h1:4hmAy0kF98dVEWj2qq6fMtiq3pz1ZTDmxf9AgHiBb7g
 github.com/cdvelop/sqlite v0.0.102 h1:qjQ/BAyZaOTelvrCudkF1NyjafuQlsAT/5EICIRu1Wk=
 github.com/cdvelop/structs v0.0.1 h1:9H4JUJ/dK1zaUOpIgay4xZpP3O/Jh991nErccKknKZ8=
 github.com/cdvelop/structs v0.0.1/go.mod h1:dvym7DUgaMRqhdcDTgCQNkbuhr+HqfwdaDMeZTmIWEI=
-github.com/cdvelop/testools v0.0.80 h1:P2oY0AncBltFwEDcsdHo2/j1bPYTO8ovMH2TgPi+1EY=
-github.com/cdvelop/timeserver v0.0.31 h1:+Yt1ydpmtNDMJbFu29hcnmkwtK+BW+gBQyhbVVAvnHg=
+github.com/cdvelop/testools v0.0.81 h1:7iydxt+HsqlGZnBPXA4EdIjKM/dCpQfz0RI/M/z1JTc=
+github.com/cdvelop/timeserver v0.0.32 h1:11K2TVGBPGfytpCeV4LP/KalLV+E0l6EBI9tijRXtYM=
 github.com/gabriel-vasile/mimetype v1.4.3 h1:in2uUcidCuFcDKtdcBxlR0rJ1+fsokWf+uqxgUFjbI0=
 github.com/gabriel-vasile/mimetype v1.4.3/go.mod h1:d8uq/6HKRL6CGdk+aubisF/M5GcPfT7nKyLpA0lbSSk=
 github.com/mattn/go-sqlite3 v1.14.19 h1:fhGleo2h1p8tVChob4I9HpmVFIAkKGpiukdrgQbWfGI=
