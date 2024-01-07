@@ -11,8 +11,8 @@ require (
 	github.com/cdvelop/filehandler v0.0.39 // indirect
 	github.com/cdvelop/input v0.0.83 // indirect
 	github.com/cdvelop/maps v0.0.8 // indirect
-	github.com/cdvelop/model v0.0.111 // indirect
-	github.com/cdvelop/object v0.0.70 // indirect
+	github.com/cdvelop/model v0.0.113 // indirect
+	github.com/cdvelop/object v0.0.71 // indirect
 	github.com/cdvelop/structs v0.0.1 // indirect
 	github.com/cdvelop/timetools v0.0.34 // indirect
 	github.com/cdvelop/unixid v0.0.49 // indirect
