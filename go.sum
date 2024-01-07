@@ -1,4 +1,4 @@
-github.com/cdvelop/api v0.0.104 h1:Ad3YDmugd2kNfe69RwFKqHb12PCy7FdBAZF9aHwmLr4=
+github.com/cdvelop/api v0.0.105 h1:b2ompiXKdfkIkDJrxUTRtMaGXFVZyCm0GHZSAqlKIzs=
 github.com/cdvelop/cutkey v1.0.15 h1:9shXpIJTbNHy/nEaI01V9uiwsJq75UiZN3DPtYtPVHM=
 github.com/cdvelop/dbtools v0.0.81 h1:1l6Dk3D5drReyaxacIzSF+mrDRNk/J1DKZU8bQbyGVg=
 github.com/cdvelop/fetchserver v0.0.26 h1:X/xPu+YkoUaxD5KNnkyZSSmXF4HF9xQ55/H8rRN/HXQ=
@@ -6,7 +6,7 @@ github.com/cdvelop/fileinput v0.0.71 h1:EIjU/HyuwyBdk0ROecl3c60YL7pC/4k8lCXwEitw
 github.com/cdvelop/logserver v0.0.35 h1:+6GwgZqOZEsrqqp9sAecp9KrviBFUZoYXyTMFxah4+A=
 github.com/cdvelop/objectdb v0.0.114 h1:rgaOdo5WdYZrcJbHMA2rE0P0EMIIotRR2fiiMtisE2A=
 github.com/cdvelop/output v0.0.16 h1:4hmAy0kF98dVEWj2qq6fMtiq3pz1ZTDmxf9AgHiBb7g=
-github.com/cdvelop/sqlite v0.0.104 h1:e+h7W7PfZT3cqYKycxV4U0uFlK6OXjTFGvcaonMDQLI=
+github.com/cdvelop/sqlite v0.0.105 h1:XnO5tOrlZO5i9lYz3bMGVOUiTXW8cJcwUdhr8frS0ss=
 github.com/cdvelop/structs v0.0.1 h1:9H4JUJ/dK1zaUOpIgay4xZpP3O/Jh991nErccKknKZ8=
 github.com/cdvelop/structs v0.0.1/go.mod h1:dvym7DUgaMRqhdcDTgCQNkbuhr+HqfwdaDMeZTmIWEI=
 github.com/cdvelop/testools v0.0.82 h1:OOmzCpf+1W+7lx+R+HdfJY8jXyLpwMUEui0xlBLZcXU=
